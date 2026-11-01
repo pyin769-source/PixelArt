@@ -7,16 +7,24 @@ PixelArt 是一个适用于 Minecraft 26.3 的 Fabric 模组，可以将图片�
 
 本模组面向 Minecraft Java 版，需要 Fabric Loader 0.20.1 或更高版本、匹配的 Fabric API，以及 Java 25 或更高版本。
 
-## 安装
+## 玩家安装方法
 
-1. 安装 Minecraft Java 版 26.3。
-2. 安装 Fabric Loader 0.20.1 或更高版本。
-3. 安装匹配版本的 Fabric API。
-4. 安装 Java 25 或更高版本。
-5. 将 `woolmapart-1.0.0.jar` 放入 `.minecraft/mods` 文件夹。
-6. 在 Minecraft 游戏目录旁创建 `mapart` 文件夹，并将图片放入其中。
+你只需要准备 Minecraft Java 版、Fabric、Fabric API 和 PixelArt 模组。
 
-支持的图片格式：PNG、JPG 和 JPEG。
+1. 安装 **Minecraft Java 版 26.3**。
+2. 为 Minecraft 26.3 安装 **Fabric Loader 0.20.1 或更高版本**。
+3. 下载匹配版本的 **Fabric API** `.jar` 文件。
+4. 下载 PixelArt 模组 `.jar` 文件。
+5. 打开 Minecraft 的 `mods` 文件夹：
+   - Windows：`%APPDATA%\.minecraft\mods`
+   - macOS：`~/Library/Application Support/minecraft/mods`
+   - Linux：`~/.minecraft/mods`
+6. 将 Fabric API JAR 和 PixelArt JAR 都放入该文件夹。
+7. 使用 **Fabric 26.3** 配置启动 Minecraft。
+
+Minecraft 26.3 需要 Java 25 或更高版本。大多数新版启动器会自动安装或选择正确的 Java 运行环境。
+
+如需使用图片，请在 Minecraft 游戏目录中创建名为 `mapart` 的文件夹，并将 PNG、JPG 或 JPEG 图片放入其中。添加或替换模组后，请重启 Minecraft。
 
 ## 创造模式：`/pixelart`
 

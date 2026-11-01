@@ -7,16 +7,24 @@ PixelArt is a Fabric mod for Minecraft 26.3 that turns images into Minecraft pix
 
 The mod is designed for Java Edition, Fabric Loader 0.20.1 or newer, Fabric API, and Java 25 or newer.
 
-## Installation
+## Installation for players
 
-1. Install Minecraft Java Edition 26.3.
-2. Install Fabric Loader 0.20.1 or newer.
-3. Install the matching Fabric API.
-4. Install Java 25 or newer.
-5. Put `woolmapart-1.0.0.jar` in the `.minecraft/mods` folder.
-6. Create a `mapart` folder next to the Minecraft game directory and place source images there.
+You only need Minecraft Java Edition, Fabric, Fabric API, and the PixelArt mod.
 
-Supported image formats are PNG, JPG, and JPEG.
+1. Install **Minecraft Java Edition 26.3**.
+2. Install **Fabric Loader 0.20.1 or newer** for Minecraft 26.3.
+3. Download the matching **Fabric API** `.jar`.
+4. Download the PixelArt mod `.jar`.
+5. Open your Minecraft `mods` folder:
+   - Windows: `%APPDATA%\.minecraft\mods`
+   - macOS: `~/Library/Application Support/minecraft/mods`
+   - Linux: `~/.minecraft/mods`
+6. Put both the Fabric API JAR and the PixelArt JAR into that folder.
+7. Start Minecraft with the **Fabric 26.3** profile.
+
+Java 25 or newer is required by Minecraft 26.3. Most current Minecraft launchers install or select the correct Java runtime automatically.
+
+To use images, create a folder named `mapart` inside the Minecraft game directory and place PNG, JPG, or JPEG files there. Restart Minecraft after adding or replacing the mod.
 
 ## Creative mode: `/pixelart`
 
