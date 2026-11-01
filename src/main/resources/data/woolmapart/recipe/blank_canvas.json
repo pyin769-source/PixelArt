@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SPS",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "P": "minecraft:paper"
+  },
+  "result": {
+    "id": "woolmapart:blank_canvas",
+    "count": 1
+  }
+}
